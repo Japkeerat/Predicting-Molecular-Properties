@@ -1,8 +1,8 @@
 # Predicting Molecular Properties
 
-This repository contains my progress and approach towards a data science competition with the same name on Kaggle.
+This repository contains my progress and approach towards a data science competition with the same name on Kaggle. Download the dataset from [here](https://www.kaggle.com/c/champs-scalar-coupling/data) (Signup required)
 
-The following table gives a brief description of the files and entries in this table are in the order of attempt I did.
+The following table gives a brief description of the files and entries in this table are in the order of attempt I did. Point to note is that, during the first three attempts, incomplete data set was taken. The Structures file was never used.
 
 | File | Description | Score | Note to myself | Date Attempted |
 | ---- | ----------- | ----- | -------------- | --------------- |
