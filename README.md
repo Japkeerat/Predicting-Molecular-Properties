@@ -10,6 +10,7 @@ The following table gives a brief description of the files and entries in this t
 | [Random Forest (EDA+untuned)](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/Rnadom_Forest_with_EDA_untuned.ipynb) | Did EDA to find outliers and remove it. Also increased a bit of preprocessing. | 1.174 | When will you tune it? | June 2, 2019 |
 | [Random Forest (Semituned)](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/Random_Forest_Tuned.ipynb) | Only tuned number of estimators and oob_score for now. Just wanted to see how much impact this can make on the score. This took around 7.5 hours. And still no improvement in score. | 1.174 | Don't spend time tuning it. Change algorithm. | June 3, 2019 |
 | [XGBoost (untuned)](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/xgboost_untuned.ipynb) | An XGBoost model with default parameters. This time, all of the dataset was used and preprocessed. | 1.226 | From next time on, use GPU for training XGBoost. Also change algorithm. | June 5, 2019 |
+| [LightGBM-1](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_version1.ipynb) | A LightGBM model with some tuning and using all dataset. Also adding one more column 'distance' as other kagglers noted its importance. | 0.527 | Go on to tune it in better way | June 6, 2019 |
 
 
 Score was calculated with log of mean absolute error which is calculated across all scalar coupling and then averaged across types.
