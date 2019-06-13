@@ -17,3 +17,9 @@ The following table gives a brief description of the files and entries in this t
 Score was calculated with log of mean absolute error which is calculated across all scalar coupling and then averaged across types.
 
 ![https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/Formula.JPG](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/Formula.JPG)
+
+External data usage details:
+
+| Dataset link | Used in |
+| ------------ | -------- |
+| [Simple Molecular Geometry Features](https://www.kaggle.com/bigironsphere/simple-molecular-geometry-features) |  |
