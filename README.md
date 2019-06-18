@@ -13,6 +13,7 @@ The following table gives a brief description of the files and entries in this t
 | [LightGBM-1](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_version1.ipynb) | A LightGBM model with some tuning and using all dataset. Also adding one more column 'distance' as other kagglers noted its importance. | 0.527 | Go on to tune it in better way | June 6, 2019 |
 | [Extra Trees (Untuned)](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/Extra%20Trees%20Untuned.ipynb) | A basic model with many derived features from other files that had no meaning yet in the test set. Main reason is that I had just read about this approach and wanted to try with an algorithm I never really worked with before. | 0.231 | Tune it as well. | June 8, 2019 |
 | [LightGBM-2](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_Extra_Features.ipynb) | A LightGBM model that uses some derived features from distance between atoms and effects for a particular molecule. Tuned it up a bit as well. | -0.120(with external data), -0.110(without external data) | Next build model for each type. | June 15, 2019 |
+| [LightGBM-3](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_version3.ipynb) | A LightGBM model for each type of bond present in the dataset; i.e., 8 models in total are developed with 5 KFolds. | -0.340 | Learn more and then choose next step. | June 18, 2019 |
 
 Score was calculated with log of mean absolute error which is calculated across all scalar coupling and then averaged across types.
 
@@ -23,3 +24,4 @@ External data usage details:
 | Dataset link | Used in |
 | ------------ | -------- |
 | [Simple Molecular Geometry Features](https://www.kaggle.com/bigironsphere/simple-molecular-geometry-features) | [LightGBM-2](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_Extra_Features.ipynb) |
+| | [LightGBM-3](https://github.com/Japkeerat/Predicting-Molecular-Properties/blob/master/LightGBM_version3.ipynb) |
